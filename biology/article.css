@@ -10,11 +10,11 @@ table {
 }
 
 td, th {
-    border: 1px solid white;
+  border: 1px solid;
     text-align: center;
     padding: 4px;
 }
 p {
-    margin: 300px;
+    margin-top : 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
