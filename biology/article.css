@@ -1,3 +1,18 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Verdana";
+}
+p
+{
+    color: white;
+  align-self: center;
+    text-align: center;
+  font-family: "Verdana";
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .sidebar {
   height: 100%;
   width: 160px;
