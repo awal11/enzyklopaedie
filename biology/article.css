@@ -53,7 +53,7 @@ h1{
 
 /* Style the main content */
 .main {
-  margin-left: 30px; /* Same as the width of the sidenav */
+  margin-left: 100px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
 
