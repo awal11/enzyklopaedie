@@ -12,7 +12,14 @@ p
   margin-top: 100px;
   margin-bottom: 50px;
 }
-
+h1{
+  font-family: 'Arial Black', sans-serif;
+  font-size: 4em;
+  color: #FFFF00 ;
+  text-align: center;
+  margin-top: 70px;
+  padding-left: 40px;
+}
 .sidebar {
   height: 100%;
   width: 160px;
