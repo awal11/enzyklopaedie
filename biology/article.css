@@ -34,6 +34,17 @@ h1{
   overflow-x: hidden;
   display: block;
 }
+.sidebar a {
+   padding: 5px;
+  background-color: #FFFF00;
+  font-size: 1.1em;
+  border: 1px ;
+  color: black;
+  text-align: center;
+  font-family: "Verdana";
+  overflow-x: hidden;
+  display: block;
+}
 
 /* Style links on mouse-over */
 .sidebar a:hover {
