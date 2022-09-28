@@ -15,7 +15,7 @@ p
 }
 h1{
   font-family: 'Arial Black', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   color: #FFFF00 ;
   text-align: center;
 }
@@ -37,14 +37,7 @@ h1{
   display: block;
 }
 
-/* Style sidebar links */
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-}
+
 
 /* Style links on mouse-over */
 .sidebar a:hover {
