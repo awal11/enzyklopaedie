@@ -37,7 +37,8 @@ h1{
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
   color: black;
   background-color: #FFFF00;
   margin-top: 30px;
