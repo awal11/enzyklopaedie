@@ -15,11 +15,13 @@ p
 }
 h1{
   font-family: 'Arial Black', sans-serif;
-  font-size: 1px;
+  font-size: 2em;
   color: #FFFF00 ;
   text-align: center;
 }
 .sidebar {
+   height: 100%; 
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -51,7 +53,7 @@ h1{
 
 /* Style the main content */
 .main {
-  margin-left: 3000px; /* Same as the width of the sidenav */
+  margin-left: 300px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
 
