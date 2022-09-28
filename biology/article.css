@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   font-family: "Verdana";
+    text-align: center;
 }
 p
 {
@@ -14,24 +15,26 @@ p
 }
 h1{
   font-family: 'Arial Black', sans-serif;
-  font-size: 4em;
+  font-size: 2em;
   color: #FFFF00 ;
   text-align: center;
-  margin-top: 70px;
-  padding-left: 40px;
 }
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  padding: 5px;
+  background-color: #FFFF00;
+  font-size: 1.1em;
+ border: 1px ;
+  color: black;
+  text-align: center;
+  font-family: "Verdana";
   overflow-x: hidden;
   display: block;
-  width: 60px;
-  padding-top: 16px;
 }
 
 /* Style sidebar links */
@@ -50,7 +53,7 @@ h1{
 
 /* Style the main content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 3000px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
 
