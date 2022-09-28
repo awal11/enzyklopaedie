@@ -35,14 +35,10 @@ h1{
   display: block;
 }
 .sidebar a {
-   padding: 5px;
-  background-color: #FFFF00;
-  font-size: 1.1em;
-  border: 1px ;
-  color: black;
-  text-align: center;
-  font-family: "Verdana";
-  overflow-x: hidden;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
   display: block;
 }
 
