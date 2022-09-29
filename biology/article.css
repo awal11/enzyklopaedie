@@ -14,7 +14,7 @@ p
 h1{
   font-family: 'Arial Black', sans-serif;
   font-size: 3em;
-  color: #FFFF00 ;
+  color: ##FFFF33 ;
   text-align: center;
 }
 .sidebar {
@@ -25,7 +25,7 @@ h1{
   top: 0;
   left: 0;
   padding: 5px;
-  background-color: #FFFF00;
+  background-color: ##FFFF33;
   font-size: 1.1em;
   border: 1px ;
   color: black;
@@ -40,7 +40,7 @@ h1{
   font-size: 30px;
   font-weight: bold;
   color: black;
-  background-color: #FFFF00;
+  background-color: ##FFFF33;
   margin-top: 30px;
   display: block;
 }
