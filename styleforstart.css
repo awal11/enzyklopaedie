@@ -4,25 +4,24 @@
 }
 
 
-h1{
-  font-family: 'Arial Black', sans-serif;
-  font-size: 4em;
-  color: #FFFF00 ;
-  text-align: center;
-  margin-top: 55px;
-  padding-left: 40px;
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4em;
+    color: #FFD700;
+    text-align: center;
+    margin-top: 55px;
+    padding-left: 40px;
 }
 .intro {
-  padding: 5px;
-  background-color: #FFFF00;
-  font-size: 1.1em;
- border: 1px ;
-  margin-left: 130px;
-  margin-right: 130px;
-  color: black;
-  text-align: center;
-  font-family: "Verdana";
-
+    padding: 5px;
+    background-color: #FFD700;
+    font-size: 1.1em;
+    border: 1px;
+    margin-left: 130px;
+    margin-right: 130px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana";
 }
 .about{
   color: white;
@@ -50,7 +49,7 @@ a:link, a:visited {
     font-family: "Verdana";
     background-color: black;
     color: white;
-    border: #FFFF00;
+    border: #FFD700;
     border-radius: 2px;
     padding: 10px 20px;
     text-align: center;
@@ -58,7 +57,7 @@ a:link, a:visited {
     display: inline-block;
 }
 a:hover, a:active {
-    background-color: #FFFF00;
+    background-color: #FFD700;
     font-family: "Verdana";
     color: black;
 }

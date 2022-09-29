@@ -12,48 +12,47 @@ p
   font-family: "Verdana";
 }
 main a {
- color: #FFFF33;
- font-size:1.5em;
+    color: #FFD700;
+    font-size: 1.5em;
 }
-main a:hover{
-      background-color: #FFFF33;
-    font-family: "Verdana";
-    color: black;
-
-}
-h1{
-  font-family: 'Arial Black', sans-serif;
-  font-size: 3em;
-  color: #FFFF33 ;
-  text-align: center;
+    main a:hover {
+        background-color: #FFD700;
+        font-family: "Verdana";
+        color: black;
+    }
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3em;
+    color: #FFD700;
+    text-align: center;
 }
 .sidebar {
-   height: 100%; 
-  width: 280px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  padding: 5px;
-  background-color: #FFFF33;
-  font-size: 1.1em;
-  border: 1px ;
-  color: black;
-  text-align: center;
-  font-family: "Verdana";
-  overflow-x: hidden;
-  display: block;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #FFD700;
+    font-size: 1.1em;
+    border: 1px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana";
+    overflow-x: hidden;
+    display: block;
 }
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: bold;
-  color: black;
-  background-color: #FFFF33;
-  margin-top: 30px;
-  display: block;
-}
+    .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        background-color: #FFD700;
+        margin-top: 30px;
+        display: block;
+    }
 
 /* Style links on mouse-over */
 .sidebar a:hover {
