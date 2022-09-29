@@ -11,13 +11,13 @@ p
     text-align: center;
   font-family: "Verdana";
 }
-main a {
+.main a {
     color: #FFD700;
     font-size: 1.5em;
 }
-    main a:hover {
+.main a:hover {
         background-color: #FFD700;
-        font-family: "Verdana";
+        font-family: "Arial Black", sans-serif;
         color: black;
     }
 h1 {
