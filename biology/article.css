@@ -16,7 +16,7 @@ main a {
  font-size:1.5em;
 }
 main a:hover{
-      background-color: #FFFF00;
+      background-color: #FFFF33;
     font-family: "Verdana";
     color: black;
 
@@ -35,7 +35,7 @@ h1{
   top: 0;
   left: 0;
   padding: 5px;
-  background-color: ##FFFF33;
+  background-color: #FFFF33;
   font-size: 1.1em;
   border: 1px ;
   color: black;
@@ -50,7 +50,7 @@ h1{
   font-size: 30px;
   font-weight: bold;
   color: black;
-  background-color: ##FFFF33;
+  background-color: #FFFF33;
   margin-top: 30px;
   display: block;
 }
@@ -62,6 +62,6 @@ h1{
 
 /* Style the main content */
 .main {
-    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-left: 290px; /* Same as the width of the sidenav */
   padding: 0px 10px;
 }
