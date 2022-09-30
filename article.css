@@ -53,16 +53,16 @@ h1 {
         font-weight: bold;
         color: black;
         background-color: #FFD700;
-        margin-top: 23px;
+        margin-top: 28px;
         display: block;
     }
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 23px;
     color: black;
     background-color: #FFD700;
-    margin-top: 10px;
+    margin-top: 7px;
     display: block;
 }
 
