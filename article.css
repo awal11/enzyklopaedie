@@ -46,7 +46,7 @@ h1 {
     overflow-x: hidden;
     display: block;
 }
-    .sidebar a {
+.Topic a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 30px;
@@ -56,6 +56,15 @@ h1 {
         margin-top: 30px;
         display: block;
     }
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: #FFD700;
+    margin-top: 20px;
+    display: block;
+}
 
 /* Style links on mouse-over */
 .sidebar a:hover {
