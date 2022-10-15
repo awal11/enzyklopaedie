@@ -11,14 +11,14 @@ p {
     align-self: center;
     text-align: center;
     font-family: "Verdana";
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .main a {
     text-decoration: none;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.8em;
     font-family: 'Arial Black', sans-serif;
     text-decoration: none;
     margin: 40px 40px 40px 40px;
@@ -28,7 +28,7 @@ p {
         background-color: #FFD700;
         font-family: 'Arial Black', sans-serif;
         color: black;
-        font-size: 1.3em;
+        font-size: 1.8em;
         margin: 40px 40px 40px 40px;
     }
 

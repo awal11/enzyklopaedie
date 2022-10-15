@@ -4,12 +4,14 @@
   font-family: "Verdana";
     text-align: center;
 }
-p
-{
+p {
     color: white;
-  align-self: center;
+    font-size: 1.3em;
+    align-self: center;
     text-align: center;
-  font-family: "Verdana";
+    font-family: "Verdana";
+    padding-left: 130px;
+    padding-right: 130px;
 }
 .main a {
     color: white;
