@@ -6,6 +6,7 @@
 }
 
 p {
+    font-size: 1em;
     color: white;
     align-self: center;
     text-align: center;
@@ -14,7 +15,7 @@ p {
 
 .main a {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.9em;
     font-family: 'Arial Black', sans-serif;
     text-decoration: none;
 }
@@ -72,12 +73,10 @@ h1 {
     display: block;
 }
 
-    /* Style links on mouse-over */
     .sidebar a:hover {
         color: white;
     }
 
-/* Style the main content */
 .main {
     margin-left: 290px; /* Same as the width of the sidenav */
     padding: 0px 10px;
