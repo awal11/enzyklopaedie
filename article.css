@@ -11,6 +11,8 @@ p {
     align-self: center;
     text-align: center;
     font-family: "Verdana";
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .main a {
