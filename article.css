@@ -21,7 +21,7 @@ p {
     font-size: 1.3em;
     font-family: 'Arial Black', sans-serif;
     text-decoration: none;
-    margin: 25px 25px 25px 25px;
+    margin: 40px 40px 40px 40px;
 }
 
     .main a:hover {
@@ -29,7 +29,7 @@ p {
         font-family: 'Arial Black', sans-serif;
         color: black;
         font-size: 1.3em;
-        margin: 25px 25px 25px 25px;
+        margin: 40px 40px 40px 40px;
     }
 
 h2 {
