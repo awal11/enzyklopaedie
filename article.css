@@ -14,8 +14,8 @@ p {
     padding-left: 130px;
     padding-right: 130px;
 }
-td{
-    font-size: 1.5em;
+table{
+    font-size: 1.2em;
     font-weight: normal;
 }
 th {
