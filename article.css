@@ -42,7 +42,15 @@ h2 {
     color: #FFD700;
     text-align: center;
 }
+.Topic a {
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #FFD700;
+}
 
+.Topic {
+    background-color: #FFD700;
+}
 .sidebar {
     height: 100%;
     width: 280px;
@@ -57,15 +65,7 @@ h2 {
     font-family: "Verdana";
     display: block;
 }
-.Topic {
-    background-color: #FFD700;
-}
 
-    .Topic a {
-        font-weight: bold;
-        margin-top: 10px;
-        background-color: #FFD700;
-    }
         .sidebar a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
