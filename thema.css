@@ -57,10 +57,13 @@ th {
 .sidebar a:hover {
   color: white;
 }
-
+.languages {
+ display: flex; 
+ justify-content: space-evenly
+}
 .main {
-    margin-left: 290px; 
-  padding: 0px 10px;
+    margin-left: 290px;
+    padding: 0px 10px;
 }
 h1 {
     font-family: 'Arial Black', sans-serif;
