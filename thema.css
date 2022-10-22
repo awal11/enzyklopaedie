@@ -39,22 +39,17 @@ h1 {
     top: 0;
     left: 0;
     padding-top: 20px;
-    background-color: #FFD700;
+    background-color: #FFD700 !important;
     font-size: 1.1em;
     color: black;
     text-align: center;
     font-family: "Verdana";
 }
 .Topic a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 30px;
-        font-weight: bold;
-        color: black;
-        background-color: #FFD700;
-        margin-top: 28px;
-        display: block;
-    }
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #FFD700;
+}
 .Topic {
     background-color: #FFD700;
 }
