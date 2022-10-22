@@ -1,9 +1,4 @@
-* {
-    background-color: black;
-    color: white;
-    font-family: "Verdana";
-    text-align: center;
-}
+
 
 p {
     font-size: 1.3em;
@@ -62,8 +57,16 @@ h2 {
     font-family: "Verdana";
     display: block;
 }
+.Topic {
+    background-color: #FFD700;
+}
 
-    .sidebar a {
+    .Topic a {
+        font-weight: bold;
+        margin-top: 10px;
+        background-color: #FFD700;
+    }
+        .sidebar a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 18px;
@@ -80,11 +83,11 @@ h2 {
     margin-left: 290px; 
     padding: 0px 10px;
 }
-.Topic {
-    background-color: #FFD700;
-}
-.Topic a {
-    font-weight: bold;
-    margin-top: 10px;
-    background-color: #FFD700;
+
+
+* {
+    background-color: black;
+    color: white;
+    font-family: "Verdana";
+    text-align: center;
 }
