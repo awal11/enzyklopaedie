@@ -62,6 +62,11 @@ th {
         .sidebar a:hover {
             color: white;
         }
+.languages {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
 
 .main {
     margin-left: 290px;
