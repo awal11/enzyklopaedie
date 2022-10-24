@@ -24,19 +24,6 @@ th {
         font-size: 1.8em;
         margin: 40px 40px 40px 40px;
     }
-.main a {
-    color: white;
-    font-size: 1.5em;
-    font-family: 'Arial Black', sans-serif;
-    text-decoration: none;
-}
-
-    .main a:hover {
-        background-color: #FFD700;
-        font-family: 'Arial Black', sans-serif;
-        color: black;
-        font-size: 1.5em;
-    }
 
 .Topic a {
     font-weight: bold;
