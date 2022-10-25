@@ -17,7 +17,7 @@ th {
     margin: 40px 40px 40px 40px;
 }
 
-    .link:hover {
+    .link a:hover {
         background-color: #FFD700;
         font-family: 'Arial Black', sans-serif;
         color: black;
