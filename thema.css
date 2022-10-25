@@ -61,7 +61,7 @@ th {
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
-    background-color: #FFD700;
+    background-color: #FFD700; 
 }
 .main {
     margin-left: 290px;
