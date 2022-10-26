@@ -2,7 +2,10 @@ td {
     font-size: 1.2em;
     font-weight: normal;
 }
-
+table, th, td {
+    border-color: gold;
+    
+}
 th {
     font-size: 1.7em;
     font-family: 'Arial Black', sans-serif;
