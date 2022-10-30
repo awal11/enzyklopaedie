@@ -1,8 +1,9 @@
 td {
     font-size: 1.2em;
     font-weight: normal;
+    text-decoration: none;
 }
-table, th, td {
+table {
     border-color: gold;
     border-block: 1px solid gold;
     
@@ -11,6 +12,7 @@ th {
     font-size: 1.7em;
     font-family: 'Arial Black', sans-serif;
     font-weight: bold;
+    text-decoration: none;
 }
 .link a {
     text-decoration: none;
