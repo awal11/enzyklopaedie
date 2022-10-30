@@ -3,7 +3,7 @@ td {
     font-weight: normal;
     text-decoration: none;
 }
-td a:hover{
+.tabl a:hover{
     background-color: #FFD700;
     font-family: 'Arial Black', sans-serif;
     color: black;
