@@ -4,9 +4,7 @@ td {
     text-decoration: none;
 }
 table {
-    border-color: gold;
     border-block: 2px solid gold;
-    
 }
 th {
     font-size: 1.7em;
