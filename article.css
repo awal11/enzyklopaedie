@@ -7,6 +7,7 @@ table {
     border-block: 2px solid gold;
 }
 th {
+    color: gold;
     font-size: 1.7em;
     font-family: 'Arial Black', sans-serif;
     font-weight: bold;
