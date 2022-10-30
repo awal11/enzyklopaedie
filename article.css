@@ -5,7 +5,7 @@ td {
 }
 table {
     border-color: gold;
-    border-block: 2px gold;
+    border-block: 2px solid gold;
     
 }
 th {
