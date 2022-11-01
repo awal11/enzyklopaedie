@@ -2,11 +2,7 @@ td {
     font-size: 1.2em;
     font-weight: normal;
     text-decoration: none;
-}
-.tabl {
-    align-content: center;
-    align-items: center;
-    align-self: center;
+    margin-bottom: 6px;
 }
 .tabl a:hover{
     background-color: #FFD700;
@@ -15,7 +11,7 @@ td {
 table {
     border-block: 2px solid gold;
     border-spacing: 1px;
-    width:max-content;
+    width:100%;
 }
 table.bordercollapsetable td {
         border: 2px solid;
@@ -30,7 +26,7 @@ th {
     font-family: 'Arial Black', sans-serif;
     font-weight: bold;
     text-decoration: none;
-    width: none;
+    margin-bottom: 10px;
 }
 .link a {
     text-decoration: none;
