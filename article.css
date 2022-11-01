@@ -3,6 +3,11 @@ td {
     font-weight: normal;
     text-decoration: none;
 }
+.tabl {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
 .tabl a:hover{
     background-color: #FFD700;
     color: black;
