@@ -2,7 +2,7 @@ td {
     font-size: 1.2em;
     font-weight: normal;
     text-decoration: none;
-    margin-bottom: 6px;
+    padding: 10px;
 }
 .tabl a:hover{
     background-color: #FFD700;
