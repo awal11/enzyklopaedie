@@ -11,7 +11,8 @@ td {
 table {
     border-block: 2px solid gold;
     border-spacing: 1px;
-    width: 100%;
+    table-layout: fixed;
+    width: 100px;
 }
 table.bordercollapsetable td {
         border: 2px solid;
