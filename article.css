@@ -31,8 +31,12 @@ li {
     font-size: 1.3em;
     align-self: center;
     text-align: center;
+}
+ul {
     padding-left: 130px;
     padding-right: 130px;
+    align-self: center;
+    text-align: center;
 }
 .link a {
     text-decoration: none;
