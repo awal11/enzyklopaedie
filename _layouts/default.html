@@ -19,9 +19,15 @@
             <a href='../index.html'> Homepage  </a>
         </div>
 
-            <div class="Topic">
-                <a href='../biology/biologysite.html'> Biology</a>
-            </div>
+        <div class="Topic">
+            <a href="../biology/biologysite.html" {% if page.url= ="../biology/biologysite.html" %}style="color: red;" {% endif %}>
+                bjology
+
+   
+            </a>
+            {{page.url}}
+            <a href='../biology/biologysite.html'> Biology</a>
+        </div>
 
             <a href='../biology/organs.html'> Organs </a>
             <a href='../biology/digestivesystem.html'> Digestive System </a>
