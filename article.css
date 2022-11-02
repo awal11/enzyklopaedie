@@ -29,8 +29,8 @@ th {
 }
 li {
     font-size: 1.3em;
-    align-self: center;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
 }
 ul {
     padding-left: 130px;
