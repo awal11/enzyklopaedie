@@ -27,6 +27,13 @@ th {
     text-decoration: none;
     margin-bottom: 10px;
 }
+li {
+    font-size: 1.3em;
+    align-self: center;
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
 .link a {
     text-decoration: none;
     color: white;
