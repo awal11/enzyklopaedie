@@ -18,7 +18,7 @@ th {
     .main a:hover {
         background-color: #FFD700;
         font-family: 'Arial Black', sans-serif;
-        color: black;
+        color: #080505;
         font-size: 1.5em;
     }
 .Topic a {
@@ -39,7 +39,7 @@ th {
     padding-top: 20px;
     background-color: #FFD700 !important;
     font-size: 1.1em;
-    color: black;
+    color: #080505;
     text-align: center;
     font-family: "Verdana";
 }
@@ -48,7 +48,7 @@ th {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: #080505;
     background-color: #FFD700;
     margin-top: 7px;
     display: block;
@@ -90,13 +90,13 @@ h2 {
     margin: 40px 40px 40px 40px;
 }
 
-    .link:hover {
-        background-color: #FFD700;
-        font-family: 'Arial Black', sans-serif;
-        color: black;
-        font-size: 1.8em;
-        margin: 40px 40px 40px 40px;
-    }
+.link:hover {
+    background-color: #FFD700;
+    font-family: 'Arial Black', sans-serif;
+    color: #080505;
+    font-size: 1.8em;
+    margin: 40px 40px 40px 40px;
+}
 p {
     color: white;
     font-size: 1.3em;
@@ -107,7 +107,7 @@ p {
     padding-right: 130px;
 }
 * {
-    background-color: black;
+    background-color: #080505;
     color: white;
     font-family: "Verdana";
     text-align: center;

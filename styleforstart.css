@@ -1,5 +1,5 @@
 *{
-  background-color: black;
+  background-color: #080505;
   color: white;
 }
 
@@ -19,7 +19,7 @@ h1 {
     border: 1px;
     margin-left: 130px;
     margin-right: 130px;
-    color: black;
+    color: #080505;
     text-align: center;
     font-family: "Verdana";
 }
@@ -48,7 +48,7 @@ h1 {
 
 a:link, a:visited {
     font-family: "Verdana";
-    background-color: black;
+    background-color: #080505;
     color: white;
     border: #FFD700;
     border-radius: 2px;
@@ -60,5 +60,5 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #FFD700;
     font-family: "Verdana";
-    color: black;
+    color: #080505;
 }

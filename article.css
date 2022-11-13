@@ -6,7 +6,7 @@ td {
 }
 .tabl a:hover{
     background-color: #FFD700;
-    color: black;
+    color: #080505;
 }
 table {
     border-block: 2px solid gold;
@@ -51,7 +51,7 @@ ul {
     .link a:hover {
         background-color: #FFD700;
         font-family: 'Arial Black', sans-serif;
-        color: black;
+        color: #080505;
         font-size: 1.8em;
         margin: 40px 40px 40px 40px;
     }
@@ -75,7 +75,7 @@ ul {
     padding-top: 20px;
     background-color: #FFD700 !important;
     font-size: 1.1em;
-    color: black;
+    color: #080505;
     text-align: center;
     font-family: "Verdana";
 }
@@ -84,7 +84,7 @@ ul {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 18px;
-        color: black;
+        color: #080505;
         background-color: #FFD700 !important;
         margin-top: 7px;
         display: block;
@@ -136,7 +136,7 @@ p {
 }
 
 * {
-    background-color: black;
+    background-color: #080505;
     color: white;
     font-family: "Verdana";
     text-align: center;
