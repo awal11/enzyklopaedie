@@ -32,7 +32,7 @@ function init() {
             a.style.display = "none";
         }
 
-    }
+    } 
 
 
 };
