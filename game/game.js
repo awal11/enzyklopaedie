@@ -10,7 +10,7 @@ function animateScript(name) {
         a.style.width = '420px';
         a.style.height = '420px';
         a.style.position = 'absolute';
-        a.style.top = '50%';
+        a.style.top = '20%';
         a.style.left = '50%';
         localStorage.setItem(name, 'find!');
 
@@ -20,18 +20,30 @@ function animateScript(name) {
     }
 };
 
+
+
 function init() {
     console.log("init!!!!");
     for (var i = 0; i < grzyby.length; i++) {
 
+        var x = Math.floor(Math.random() * 1150) + 320;
+        var y = Math.floor(Math.random() * 670) + 35;
+
+        console.log(x);
+        console.log(y);
+        
+        var a = document.getElementById(grzyby[i]);
         var item = localStorage.getItem(grzyby[i]);
         var itemFound = item === 'find!';
+        a.style.width = '420px';
+        a.style.height = '420px';
+        a.style.position = 'absolute';
+        a.style.top = '20%';
+        a.style.left = '50%';
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
-            var a = document.getElementById(grzyby[i]);
             a.style.display = "none";
         }
-
     } 
 
 
