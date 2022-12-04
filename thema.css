@@ -8,6 +8,10 @@ th {
     font-family: 'Arial Black', sans-serif;
     font-weight: bold;
 }
+.imaz {
+    height: 256px;
+    width: 256px;
+}
 
 .main a {
     color: white;
