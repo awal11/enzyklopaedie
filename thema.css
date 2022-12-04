@@ -57,7 +57,9 @@ th {
     margin-top: 7px;
     display: block;
 }
-
+.button {
+    background-color: gold;
+}
 .sidebar a:hover {
   color: white;
 }
