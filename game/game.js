@@ -15,7 +15,7 @@ function animateScript(name) {
         localStorage.setItem(name, 'find!');
 
     } else {
-        a.style.visibility = "hidden";
+        a.style.display = "none";
 
     }
 };
