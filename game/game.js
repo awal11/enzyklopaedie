@@ -29,7 +29,7 @@ function init() {
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
             var a = document.getElementById(grzyby[i]);
-            a.style.visibility = "hidden";
+            a.style.display = "none";
         }
 
     }
