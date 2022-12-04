@@ -40,5 +40,3 @@ function init() {
 function deleteItems() {
     localStorage.clear();
 }
-
-</script >
