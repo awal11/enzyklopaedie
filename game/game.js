@@ -35,11 +35,11 @@ function init() {
         var a = document.getElementById(grzyby[i]);
         var item = localStorage.getItem(grzyby[i]);
         var itemFound = item === 'find!';
-        a.style.width = '420px';
-        a.style.height = '420px';
+        a.style.width = '100px';
+        a.style.height = '100px';
         a.style.position = 'absolute';
-        a.style.top = '20%';
-        a.style.left = '50%';
+        a.style.top = ypx;
+        a.style.left = xpx;
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
             a.style.display = "none";
