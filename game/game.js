@@ -7,8 +7,8 @@ function animateScript(name) {
 
     var a = document.getElementById(name);
     if (!itemFound) {
-        a.style.width = '120px';
-        a.style.height = '120px';
+        a.style.width = '420px';
+        a.style.height = '420px';
         a.style.position = 'absolute';
         a.style.top = '50%';
         a.style.left = '50%';
