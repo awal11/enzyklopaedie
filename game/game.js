@@ -26,7 +26,7 @@ function init() {
     console.log("init!!!!");
     for (var i = 0; i < grzyby.length; i++) {
 
-        var x = (Math.floor(Math.random() * 1000) + 320 + 'px');
+        var x = (Math.floor(Math.random() * 950) + 320 + 'px');
         var y = Math.floor(Math.random() * 600) + 35;
 
         console.log(x);
