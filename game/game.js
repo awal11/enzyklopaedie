@@ -1,4 +1,6 @@
 var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'halo'];
+var 
+
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
