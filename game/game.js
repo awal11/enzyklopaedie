@@ -38,7 +38,7 @@ function init() {
         a.style.width = '100px';
         a.style.height = '100px';
         a.style.position = 'absolute';
-        a.style.top = y px;
+        a.style.top = y + 'px';
         a.style.left = x;
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
