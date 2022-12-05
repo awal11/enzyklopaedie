@@ -26,7 +26,7 @@ function init() {
     console.log("init!!!!");
     for (var i = 0; i < grzyby.length; i++) {
 
-        var x = (Math.floor(Math.random() * 1100) + 320 + 'px');
+        var x = (Math.floor(Math.random() * 1000) + 320 + 'px');
         var y = Math.floor(Math.random() * 600) + 35;
 
         console.log(x);
@@ -35,8 +35,8 @@ function init() {
         var a = document.getElementById(grzyby[i]);
         var item = localStorage.getItem(grzyby[i]);
         var itemFound = item === 'find!';
-        a.style.width = '100px';
-        a.style.height = '100px';
+        a.style.width = '80px';
+        a.style.height = '80px';
         a.style.position = 'absolute';
         a.style.top = y + 'px';
         a.style.left = x;
