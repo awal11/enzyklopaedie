@@ -1,6 +1,9 @@
 var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'halo'];
 var 
 
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
@@ -15,8 +18,8 @@ function animateScript(name) {
         a.style.top = '20%';
         a.style.left = '50%';
         localStorage.setItem(name, 'find!');
-
-    } else {
+    }
+    else {
         a.style.display = "none";
 
     }
@@ -50,6 +53,8 @@ function init() {
 
 
 };
+
+
 
 function deleteItems() {
     localStorage.clear();
