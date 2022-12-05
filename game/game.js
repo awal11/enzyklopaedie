@@ -26,7 +26,7 @@ function init() {
     console.log("init!!!!");
     for (var i = 0; i < grzyby.length; i++) {
 
-        var x = Math.floor(Math.random() * 1150) + 320;
+        var x = (Math.floor(Math.random() * 1150) + 320 + 'px');
         var y = Math.floor(Math.random() * 670) + 35;
 
         console.log(x);
@@ -38,8 +38,8 @@ function init() {
         a.style.width = '100px';
         a.style.height = '100px';
         a.style.position = 'absolute';
-        a.style.top = ypx;
-        a.style.left = xpx;
+        a.style.top = y px;
+        a.style.left = x;
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
             a.style.display = "none";
