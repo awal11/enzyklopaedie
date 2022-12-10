@@ -19,10 +19,10 @@ function shuffle(array) {
   
     return array;
   }
-  
-  var arr = [2, 11, 37, 42];
-  shuffle(arr);
-  console.log(arr);
+
+
+ var gryby1 = shuffle(grzyby);
+  console.log(gryby, grzyby1);
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
