@@ -21,8 +21,8 @@ function shuffle(array) {
   }
 
 
- var grzyby1 = shuffle(grzyby);
-  console.log(grzyby, grzyby1);
+ shuffle(grzyby);
+  console.log(grzyby);
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
