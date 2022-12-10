@@ -54,12 +54,13 @@ function init() {
         for (var i = 0; i < grzyby.length; i++) {
         var para = grzyby[i] + '  ' + strony[i];
          //zapisz do local storage parę strona:grzyb
-         document.write(para);
          console.log(para);
         }
     }
+    else {
     //else pobierasz z localstorage parę strona:grzyb
     // sprawdzasz czy jestes na pobranej stronie
+    }
     for (var i = 0; i < grzyby.length; i++) {
 
         var x = (Math.floor(Math.random() * 950) + 320 + 'px');
