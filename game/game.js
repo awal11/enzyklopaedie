@@ -1,5 +1,4 @@
 var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'halo'];
-var 
 
 function myFunction(p1, p2) {
     return p1 * p2;
