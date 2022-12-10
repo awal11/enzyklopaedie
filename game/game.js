@@ -52,7 +52,7 @@ function init() {
         shuffle(strony);
         console.log(strony);
         for (var i = 0; i < grzyby.length; i++) {
-        var para = grzyby[i] + '  ' + strony[i];
+        var para = grzyby[i] + '  ' + strony[i]; 
          //zapisz do local storage parę strona:grzyb
          console.log(para);
         }
