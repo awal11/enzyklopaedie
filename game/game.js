@@ -1,6 +1,6 @@
 var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'strzelczyk'];
 
-var strony = ['biologia','matematyka', 'miesnie', ' organy', 'chemia'];
+var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
