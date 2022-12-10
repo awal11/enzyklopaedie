@@ -21,8 +21,6 @@ function shuffle(array) {
   }
 
 
- // shuffle(grzyby);
- // console.log(grzyby);
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
@@ -56,6 +54,7 @@ function init() {
         for (var i = 0; i < grzyby.length; i++) {
         var para = grzyby[i] + strony[i];
          //zapisz do local storage parę strona:grzyb
+         document.write(para);
          console.log(para);
         }
     }
