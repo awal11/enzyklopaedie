@@ -43,6 +43,10 @@ function animateScript(name) {
 };
 
 
+var x = (Math.floor(Math.random() * 950) + 320 + 'px');
+var y = Math.floor(Math.random() * 600) + 35;
+
+
 
 function init() {
     console.log("init!!!!");
@@ -62,10 +66,6 @@ function init() {
     // sprawdzasz czy jestes na pobranej stronie
     }
     for (var i = 0; i < grzyby.length; i++) {
-
-        var x = (Math.floor(Math.random() * 950) + 320 + 'px');
-        var y = Math.floor(Math.random() * 600) + 35;
-
         console.log(x);
         console.log(y);
         
@@ -89,5 +89,10 @@ function init() {
 
 
 function deleteItems() {
+    var x = (Math.floor(Math.random() * 950) + 320 + 'px');
+var y = Math.floor(Math.random() * 600) + 35;
+
     localStorage.clear();
+    init();
+
 }
