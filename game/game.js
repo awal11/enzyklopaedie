@@ -1,8 +1,28 @@
 var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'halo'];
 
-function myFunction(p1, p2) {
-    return p1 * p2;
-}
+var strony = ['biologia','aaa'];
+
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+  
+  var arr = [2, 11, 37, 42];
+  shuffle(arr);
+  console.log(arr);
 
 function animateScript(name) {
     var item = localStorage.getItem(name);
@@ -28,6 +48,14 @@ function animateScript(name) {
 
 function init() {
     console.log("init!!!!");
+    //todo dodac warunek jesi: localstorage jest pusty
+
+        //todo dla kazdego grzyba - wylosuj jedną stronę
+
+         //zapisz do local storage parę strona:grzyb
+
+    //else pobierasz z localstorage parę strona:grzyb
+    // sprawdzasz czy jestes na pobranej stronie
     for (var i = 0; i < grzyby.length; i++) {
 
         var x = (Math.floor(Math.random() * 950) + 320 + 'px');
