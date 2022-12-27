@@ -55,15 +55,44 @@ function animateScript(name) {
 
 function init() {
     console.log("init!!!!");
-    var x = Math.floor(Math.random() * 950) + 320;
-    var y = Math.floor(Math.random() * 600) + 35;
 
 
     //todo dodac warunek jesi: localstorage jest pusty
-    if (localStorage = {}) {
+    if (localStorage.getItem('stahu') === null) {
+        console.log("nie znaleziono stanu gry, inicjacja stanu");
+
         //todo dla kazdego grzyba - wylosuj jedną stronę
         shuffle(strony);
         console.log(strony);
+
+        for (var i = 0; i < grzyby.length; i++) {
+            var x = Math.floor(Math.random() * 950) + 320;
+            var y = Math.floor(Math.random() * 600) + 35;
+            console.log(x);
+            console.log(y);
+            
+            var grzyb = grzyby[i];
+            var nazwa = grzyb[0];
+            var wspolrzedne = grzyb[1];
+            console.log (grzyb);
+            console.log (nazwa);
+            console.log (wspolrzedne);
+            var a = document.getElementById(nazwa);
+            var item = localStorage.getItem(nazwa);
+            var itemFound = item === 'find!';
+            a.style.width = '100px';
+            a.style.height = '100px';
+            a.style.position = 'absolute';
+            wspolrzedne[0] = x;
+            wspolrzedne[1] = y;
+            a.style.top = y + 'px';
+            a.style.left = x + 'px';
+            console.log(" getItem: " + item + " getItem: " + itemFound);
+            if (itemFound) {
+                a.style.display = "none";
+            }
+        } 
+    
         for (var i = 0; i < grzyby.length; i++) {
         var para = grzyby[i][0] + '  ' + strony[i]; 
          //zapisz do local storage parę strona:grzyb
@@ -71,32 +100,11 @@ function init() {
         }
     }
     else {
-    //else pobierasz z localstorage parę strona:grzyb
+        console.log("gra aktywna");
+
+        //else pobierasz z localstorage parę strona:grzyb
     // sprawdzasz czy jestes na pobranej stronie
     }
-    for (var i = 0; i < grzyby.length; i++) {
-        console.log(x);
-        console.log(y);
-        
-        var grzyb = grzyby[i];
-        var nazwa = grzyb[0];
-        var wspolrzedne = grzyb[1];
-        console.log (grzyb);
-        console.log (nazwa);
-        console.log (wspolrzedne);
-        var a = document.getElementById(nazwa);
-        var item = localStorage.getItem(nazwa);
-        var itemFound = item === 'find!';
-        a.style.width = '100px';
-        a.style.height = '100px';
-        a.style.position = 'absolute';
-        a.style.top = y + 'px';
-        a.style.left = x + 'px';
-        console.log(" getItem: " + item + " getItem: " + itemFound);
-        if (itemFound) {
-            a.style.display = "none";
-        }
-    } 
 
 
 };
