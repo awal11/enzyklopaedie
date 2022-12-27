@@ -102,7 +102,9 @@ function init() {
         console.log("gra aktywna");
 
         for (var i = 0; i < grzyby.length; i++) {
+            console.log(grzyby[i][0]);
             var grzyb = localStorage.getItem(grzyby[i][0]);
+            console.log(grzyb);
             
             var nazwa = grzyb[0];
             var wspolrzedne = grzyb[1];
