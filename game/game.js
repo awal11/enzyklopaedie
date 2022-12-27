@@ -19,29 +19,25 @@ function shuffle(array) {
     return array;
   }
 
-
-
 function animateScript(name) {
-    var item = localStorage.getItem(name);
-    var itemFound = item === 'find!';
-    console.log(name + " getItem: " + item + " getItem: " + itemFound);
+    var grzyb = localStorage.getItem(name);
+    var found = grzyb[2];
+    console.log(name + " getItem: " + grzyb + " found: " + found);
 
     var a = document.getElementById(name);
-    if (!itemFound) {
+    if (found) {
+        a.style.display = "none";
+    }
+    else {
         a.style.width = '420px';
         a.style.height = '420px';
         a.style.position = 'absolute';
         a.style.top = '20%';
         a.style.left = '50%';
-        localStorage.setItem(name, 'find!');
-    }
-    else {
-        a.style.display = "none";
+        grzyb[2] = true;
+        localStorage.setItem(name, JSON.stringify(grzyb));        
     }
 };
-
-
-
 
 function init() {
     console.log("init!!!!");
@@ -63,22 +59,17 @@ function init() {
             
             var nazwa = grzyby[i];
             var a = document.getElementById(nazwa);
-            var item = localStorage.getItem(nazwa);
-            var itemFound = item === 'find!';
             a.style.width = '100px';
             a.style.height = '100px';
             a.style.position = 'absolute';
             a.style.top = y + 'px';
             a.style.left = x + 'px';
-            console.log(" getItem: " + item + " getItem: " + itemFound);
-            if (itemFound) {
-                a.style.display = "none";
-            }
  
             var para = grzyby[i] + '  ' + strony[i]; 
             //zapisz do local storage parę strona:grzyb
             console.log(para);
-            var grzyb = [nazwa, [x,y]];
+
+            var grzyb = [nazwa, [x,y], false];
             localStorage.setItem(nazwa, JSON.stringify(grzyb));
      
         }
@@ -92,20 +83,22 @@ function init() {
             
             var nazwa = grzyb[0];
             var wspolrzedne = grzyb[1];
+            var found = grzyb[2];
+
             console.log (grzyb);
             console.log (nazwa);
             console.log (wspolrzedne);
+            console.log(found);
+
             var a = document.getElementById(nazwa);
-            var item = localStorage.getItem(nazwa);
-            var itemFound = item === 'find!';
-            a.style.width = '100px';
-            a.style.height = '100px';
-            a.style.position = 'absolute';
-            a.style.left = wspolrzedne[0] + 'px';
-            a.style.top = wspolrzedne[1] + 'px';
-            console.log(" getItem: " + item + " getItem: " + itemFound);
-            if (itemFound) {
+            if (found) {
                 a.style.display = "none";
+            } else {
+                a.style.width = '100px';
+                a.style.height = '100px';
+                a.style.position = 'absolute';
+                a.style.left = wspolrzedne[0] + 'px';
+                a.style.top = wspolrzedne[1] + 'px';    
             }
      
         }
