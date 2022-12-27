@@ -46,7 +46,6 @@ function animateScript(name) {
     }
     else {
         a.style.display = "none";
-
     }
 };
 
@@ -91,12 +90,12 @@ function init() {
             if (itemFound) {
                 a.style.display = "none";
             }
-        } 
-    
-        for (var i = 0; i < grzyby.length; i++) {
-        var para = grzyby[i][0] + '  ' + strony[i]; 
-         //zapisz do local storage parę strona:grzyb
-         console.log(para);
+ 
+            var para = grzyby[i][0] + '  ' + strony[i]; 
+            //zapisz do local storage parę strona:grzyb
+            console.log(para);
+            localStorage.setItem(nazwa, grzyb);
+     
         }
     }
     else {
@@ -112,10 +111,6 @@ function init() {
 
 
 function deleteItems() {
-    var x = (Math.floor(Math.random() * 950) + 320 + 'px');
-var y = Math.floor(Math.random() * 600) + 35;
-
     localStorage.clear();
     init();
-
 }
