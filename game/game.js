@@ -1,4 +1,13 @@
-var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'strzelczyk'];
+var wspolrzedne = [150,200];
+var stahu = ['stahu', wspolrzedne];
+var mario = ['mario', [100,200]];
+var imie = ['imie', [400, 300]];
+var rumjan = ['rumjan', [500, 400]];
+var strzelczyk = ['strzelczyk', [600, 500]];
+
+var grzyby = [stahu, mario, imie, rumjan, strzelczyk];
+
+
 
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 
@@ -46,6 +55,11 @@ function animateScript(name) {
 var x = (Math.floor(Math.random() * 950) + 320 + 'px');
 var y = Math.floor(Math.random() * 600) + 35;
 
+function random (){
+    
+}
+
+
 
 
 function init() {
@@ -56,7 +70,7 @@ function init() {
         shuffle(strony);
         console.log(strony);
         for (var i = 0; i < grzyby.length; i++) {
-        var para = grzyby[i] + '  ' + strony[i]; 
+        var para = grzyby[i][0] + '  ' + strony[i]; 
          //zapisz do local storage parę strona:grzyb
          console.log(para);
         }
@@ -69,8 +83,8 @@ function init() {
         console.log(x);
         console.log(y);
         
-        var a = document.getElementById(grzyby[i]);
-        var item = localStorage.getItem(grzyby[i]);
+        var a = document.getElementById(grzyby[i][0]);
+        var item = localStorage.getItem(grzyby[i][0]);
         var itemFound = item === 'find!';
         a.style.width = '100px';
         a.style.height = '100px';
