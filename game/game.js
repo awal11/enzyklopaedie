@@ -1,13 +1,4 @@
-var stahu = ['stahu',  [150,200]];
-var mario = ['mario', [100,200]];
-var imie = ['imie', [400, 300]];
-var rumjan = ['rumjan', [500, 400]];
-var strzelczyk = ['strzelczyk', [600, 500]];
-
-var grzyby = [stahu, mario, imie, rumjan, strzelczyk];
-
-
-
+var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 
 function shuffle(array) {
@@ -70,20 +61,13 @@ function init() {
             console.log(x);
             console.log(y);
             
-            var grzyb = grzyby[i];
-            var nazwa = grzyb[0];
-            var wspolrzedne = grzyb[1];
-            console.log (grzyb);
-            console.log (nazwa);
-            console.log (wspolrzedne);
+            var nazwa = grzyby[i];
             var a = document.getElementById(nazwa);
             var item = localStorage.getItem(nazwa);
             var itemFound = item === 'find!';
             a.style.width = '100px';
             a.style.height = '100px';
             a.style.position = 'absolute';
-            wspolrzedne[0] = x;
-            wspolrzedne[1] = y;
             a.style.top = y + 'px';
             a.style.left = x + 'px';
             console.log(" getItem: " + item + " getItem: " + itemFound);
@@ -91,9 +75,10 @@ function init() {
                 a.style.display = "none";
             }
  
-            var para = grzyby[i][0] + '  ' + strony[i]; 
+            var para = grzyby[i] + '  ' + strony[i]; 
             //zapisz do local storage parę strona:grzyb
             console.log(para);
+            var grzyb = [nazwa, [x,y]];
             localStorage.setItem(nazwa, JSON.stringify(grzyb));
      
         }
@@ -102,8 +87,7 @@ function init() {
         console.log("gra aktywna");
 
         for (var i = 0; i < grzyby.length; i++) {
-            console.log(grzyby[i][0]);
-            var grzyb = JSON.parse(localStorage.getItem(grzyby[i][0]));
+            var grzyb = JSON.parse(localStorage.getItem(grzyby[i]));
             console.log(grzyb);
             
             var nazwa = grzyb[0];
