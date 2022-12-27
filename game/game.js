@@ -101,10 +101,29 @@ function init() {
     else {
         console.log("gra aktywna");
 
-        //else pobierasz z localstorage parę strona:grzyb
-    // sprawdzasz czy jestes na pobranej stronie
+        for (var i = 0; i < grzyby.length; i++) {
+            var grzyb = localStorage.getItem(grzyby[i]);
+            
+            var nazwa = grzyb[0];
+            var wspolrzedne = grzyb[1];
+            console.log (grzyb);
+            console.log (nazwa);
+            console.log (wspolrzedne);
+            var a = document.getElementById(nazwa);
+            var item = localStorage.getItem(nazwa);
+            var itemFound = item === 'find!';
+            a.style.width = '100px';
+            a.style.height = '100px';
+            a.style.position = 'absolute';
+            a.style.left = wspolrzedne[0] + 'px';
+            a.style.top = wspolrzedne[1] + 'px';
+            console.log(" getItem: " + item + " getItem: " + itemFound);
+            if (itemFound) {
+                a.style.display = "none";
+            }
+     
+        }
     }
-
 
 };
 
