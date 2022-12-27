@@ -20,7 +20,7 @@ function shuffle(array) {
   }
 
 function animateScript(name) {
-    var grzyb = localStorage.getItem(name);
+    var grzyb = JSON.parse(localStorage.getItem(name));
     var found = grzyb[2];
     console.log(name + " getItem: " + grzyb + " found: " + found);
 
