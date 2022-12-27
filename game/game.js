@@ -1,5 +1,4 @@
-var wspolrzedne = [150,200];
-var stahu = ['stahu', wspolrzedne];
+var stahu = ['stahu',  [150,200]];
 var mario = ['mario', [100,200]];
 var imie = ['imie', [400, 300]];
 var rumjan = ['rumjan', [500, 400]];
@@ -52,18 +51,14 @@ function animateScript(name) {
 };
 
 
-var x = (Math.floor(Math.random() * 950) + 320 + 'px');
-var y = Math.floor(Math.random() * 600) + 35;
-
-function random (){
-    
-}
-
-
 
 
 function init() {
     console.log("init!!!!");
+    var x = Math.floor(Math.random() * 950) + 320;
+    var y = Math.floor(Math.random() * 600) + 35;
+
+
     //todo dodac warunek jesi: localstorage jest pusty
     if (localStorage = {}) {
         //todo dla kazdego grzyba - wylosuj jedną stronę
@@ -83,14 +78,20 @@ function init() {
         console.log(x);
         console.log(y);
         
-        var a = document.getElementById(grzyby[i][0]);
-        var item = localStorage.getItem(grzyby[i][0]);
+        var grzyb = grzyby[i];
+        var nazwa = grzyb[0];
+        var wspolrzedne = grzyb[1];
+        console.log (grzyb);
+        console.log (nazwa);
+        console.log (wspolrzedne);
+        var a = document.getElementById(nazwa);
+        var item = localStorage.getItem(nazwa);
         var itemFound = item === 'find!';
         a.style.width = '100px';
         a.style.height = '100px';
         a.style.position = 'absolute';
         a.style.top = y + 'px';
-        a.style.left = x;
+        a.style.left = x + 'px';
         console.log(" getItem: " + item + " getItem: " + itemFound);
         if (itemFound) {
             a.style.display = "none";
