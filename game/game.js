@@ -94,7 +94,7 @@ function init() {
             var para = grzyby[i][0] + '  ' + strony[i]; 
             //zapisz do local storage parę strona:grzyb
             console.log(para);
-            localStorage.setItem(nazwa, grzyb);
+            localStorage.setItem(nazwa, JSON.stringify(grzyb));
      
         }
     }
@@ -103,7 +103,7 @@ function init() {
 
         for (var i = 0; i < grzyby.length; i++) {
             console.log(grzyby[i][0]);
-            var grzyb = localStorage.getItem(grzyby[i][0]);
+            var grzyb = JSON.parse(localStorage.getItem(grzyby[i][0]));
             console.log(grzyb);
             
             var nazwa = grzyb[0];
