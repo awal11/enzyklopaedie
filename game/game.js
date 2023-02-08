@@ -42,12 +42,9 @@ function animateScript(name) {
 function init() {
     console.log("init!!!!");
 
-
-    //todo dodac warunek jesi: localstorage jest pusty
     if (localStorage.getItem('stahu') === null) {
         console.log("nie znaleziono stanu gry, inicjacja stanu");
 
-        //todo dla kazdego grzyba - wylosuj jedną stronę
         shuffle(strony);
         console.log(strony);
 
