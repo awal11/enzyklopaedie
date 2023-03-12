@@ -34,16 +34,14 @@ h1 {
 }
 .button {
   align-self: center;
-  display: grid;
+ display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 40px;
-    margin-left: auto;
-    margin-right: auto 
+  margin: auto;
  
 }
 .butt {
-    margin-left: auto;
-    margin-right: auto ;
+  margin-left: 110px;
   align-self: center;
   text-align: center;
   padding: 1px;
