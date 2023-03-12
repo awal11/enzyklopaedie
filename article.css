@@ -45,7 +45,7 @@ ul {
     font-size: 1.8em;
     font-family: 'Arial Black', sans-serif;
     text-decoration: none;
-    margin: 20px 20px 20px 40px;
+    margin: 20px 20px 20px 20px;
 
 }
 
@@ -54,7 +54,7 @@ ul {
         font-family: 'Arial Black', sans-serif;
         color: #080505;
         font-size: 1.8em;
-        margin: 40px 40px 40px 40px;
+        margin: 20px 20px 20px 20px;
     }
 
 .Topic a {
