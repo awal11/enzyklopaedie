@@ -36,7 +36,7 @@ h1 {
   align-self: center;
  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 40px;
+  grid-gap: 50px;
   margin: auto;
  
 }
