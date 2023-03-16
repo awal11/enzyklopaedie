@@ -43,7 +43,7 @@ th {
     left: 0;
     padding-top: 20px;
     background-color: #FFD700 !important;
-    font-size: 1.1em;
+    font-size: 17px;
     color: #080505;
     text-align: center;
     font-family: "Verdana";
@@ -52,7 +52,7 @@ th {
 .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: #080505;
     background-color: #FFD700;
     margin-top: 7px;
