@@ -1,4 +1,4 @@
-var grzyby = ['stahu', 'mario', 'imie', 'rumjan', 'strzelczyk'];
+var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 
 function shuffle(array) {
