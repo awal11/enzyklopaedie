@@ -28,6 +28,7 @@ function animateScript(name) {
     var found = grzyb[2];
     console.log(name + " getItem: " + grzyb + " found: " + found);
     var a = document.getElementById(name);
+    let number = grzyby.indexOf(name)
     alert(grzyby)
     alert(name)
     alert(number)
