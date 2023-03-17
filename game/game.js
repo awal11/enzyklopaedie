@@ -39,16 +39,16 @@ function animateScript(name) {
                       
         if ( document.URL.includes("game.html") ) 
      {
-        location.replace(texts[a]);
+        location.replace(texts[number]);
      }
      else if (document.URL.includes('spiel.html'))
      {
-        location.replace(gertexts[a]);
+        location.replace(gertexts[number]);
 
      }
      else if (document.URL.includes('jeu.html'))
      {
-        location.replace(frtexts[a]);
+        location.replace(frtexts[number]);
 
      }
      else
