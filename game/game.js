@@ -33,7 +33,7 @@ function animateScript(name) {
         a.style.display = "none";
     }
     else { 
-        alert(a);
+        alert(indexOf(a));
                       
         if ( document.URL.includes("game.html") ) 
      {
