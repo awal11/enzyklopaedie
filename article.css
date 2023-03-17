@@ -75,7 +75,7 @@ ul {
     left: 0;
     padding-top: 20px;
     background-color: #FFD700 !important;
-    font-size: 17px;
+    font-size: 15.5px;
     color: #080505;
     text-align: center;
     font-family: "Verdana";
@@ -84,7 +84,7 @@ ul {
     .sidebar a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 15.5px;
         color: #080505;
         background-color: #FFD700 !important;
         margin-top: 7px;
