@@ -1,5 +1,6 @@
 var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
+var texts = 
 
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
@@ -29,11 +30,25 @@ function animateScript(name) {
         a.style.display = "none";
     }
     else {
-        a.style.width = '420px';
-        a.style.height = '420px';
-        a.style.position = 'absolute';
-        a.style.top = '20%';
-        a.style.left = '50%';
+                        
+        if ( document.URL.includes("game.html") ) 
+     {
+         
+     }
+     else if (document.URL.includes('spiel.html'))
+     {
+
+     }
+     else if (document.URL.includes('jeu.html'))
+     {
+
+     }
+     else
+     {
+         alert("japier");
+
+     }
+     
         grzyb[2] = true;
         localStorage.setItem(name, JSON.stringify(grzyb));        
     }
@@ -89,7 +104,9 @@ function init() {
 
             var a = document.getElementById(nazwa);
             if (found) {
-                a.style.display = "none";
+             a.style.display = "none";
+
+
             } else {
                 a.style.width = '100px';
                 a.style.height = '100px';
