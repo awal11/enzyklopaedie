@@ -1,7 +1,7 @@
 var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 var texts = ['boletus.html', 'flyagaric.html','cantharellus.html','parasol.html','magic.html']
-var gertexts = ['../deutsch/spiel/steinpilz.html', '../deutsch/spiel/fliegenpilz.html', '../deutsch/spiel/pfifferlinge.html', '../deutsch/spiel/riesenschirmling.html', '../deutsch/spiel/magic.html']
+var gertexts = ['steinpilz.html', 'fliegenpilz.html', 'pfifferlinge.html', 'riesenschirmling.html', 'magic.html']
 var frtexts = ['../francais/jeu/boletus.html', '../francais/jeu/amanite.html', '../francais/jeu/cantharellus.html', '../francais/jeu/lepiote.html', '../francais/jeu/magic.html']
 
 
