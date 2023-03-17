@@ -27,7 +27,7 @@ function animateScript(name) {
     var grzyb = JSON.parse(localStorage.getItem(name));
     var found = grzyb[2];
     console.log(name + " getItem: " + grzyb + " found: " + found);
-    var x = indexOf(name)
+    var x = name.indexOf(name)
 
     var a = document.getElementById(name);
     if (found) {
