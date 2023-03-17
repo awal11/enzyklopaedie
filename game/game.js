@@ -35,7 +35,7 @@ function animateScript(name) {
     else { 
         let number = grzyby.indexOf(a);
 
-        alert(indexOf(a));
+        alert(number);
                       
         if ( document.URL.includes("game.html") ) 
      {
