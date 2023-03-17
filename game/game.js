@@ -1,8 +1,8 @@
 var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
 var texts = ['mushrooms/boletus.html', 'mushrooms/flyagaric.html','mushrooms/cantharellus.html','mushrooms/parasol.html','mushrooms/magic.html']
-var gertexts = ['pilze/steinpilz.html', 'pilze/fliegenpilz.html', 'pilze/pfifferlinge.html', 'pilze/riesenschirmling.html', 'pilze/magic.html']
-var frtexts = ['champignons/boletus.html', 'champignons/amanite.html', 'champignons/cantharellus.html', 'champignons/lepiote.html', 'champignons/magic.html']
+var gertexts = ['../../game/pilze/steinpilz.html', '../../game/pilze/fliegenpilz.html', '../../game/pilze/pfifferlinge.html', '../../game/pilze/riesenschirmling.html', '../../game/pilze/magic.html']
+var frtexts = ['../../game/champignons/boletus.html', '../../game/champignons/amanite.html', '../../game/champignons/cantharellus.html', '../../game/champignons/lepiote.html', '../../game/champignons/magic.html']
 
 
 function shuffle(array) {
