@@ -1,6 +1,9 @@
 var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
-var texts = []
+var texts = ['../mushrooms/boletus.html', '../mushrooms/flyagaric.html','../mushrooms/cantharellus.html','../mushrooms/parasol.html','../mushrooms/magic.html']
+var gertexts = ['../pilze/steinpilz.html', '../pilze/fliegenpilz.html', '../pilze/pfifferlinge.html', '../pilze/riesenschirmling.html', '../pilze/magic.html']
+var frtexts = ['../champignons/boletus.html', '../champignons/amanite.html', '../champignons/cantharellus.html', '../champignons/lepiote.html', '../champignons/magic.html']
+
 
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
@@ -33,14 +36,17 @@ function animateScript(name) {
                         
         if ( document.URL.includes("game.html") ) 
      {
-         
+        location.replace(texts[1]);
      }
      else if (document.URL.includes('spiel.html'))
      {
+        location.replace(gertexts[1]);
+
 
      }
      else if (document.URL.includes('jeu.html'))
      {
+        location.replace(frtexts[1]);
 
      }
      else
