@@ -29,15 +29,15 @@ function animateScript(name) {
     console.log(name + " getItem: " + grzyb + " found: " + found);
     var a = document.getElementById(name);
     let number = grzyby.indexOf(name)
-    alert(grzyby)
-    alert(name)
-    alert(number)
+   //alert(grzyby)
+    //alert(name)
+    //alert(number)
 
     if (found) {
         a.style.display = "none";
     }
     else { 
-        alert(x);
+       
                       
         if ( document.URL.includes("game.html") ) 
      {
