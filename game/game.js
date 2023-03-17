@@ -27,6 +27,7 @@ function animateScript(name) {
     var grzyb = JSON.parse(localStorage.getItem(name));
     var found = grzyb[2];
     console.log(name + " getItem: " + grzyb + " found: " + found);
+    var x = indexOf(name)
 
     var a = document.getElementById(name);
     if (found) {
@@ -35,7 +36,7 @@ function animateScript(name) {
     else { 
         let number = grzyby.indexOf(a);
 
-        alert(number);
+        alert(x);
                       
         if ( document.URL.includes("game.html") ) 
      {
