@@ -32,8 +32,9 @@ function animateScript(name) {
     if (found) {
         a.style.display = "none";
     }
-    else {
-                        
+    else { 
+        alert(a);
+                      
         if ( document.URL.includes("game.html") ) 
      {
         location.replace(texts[a]);
