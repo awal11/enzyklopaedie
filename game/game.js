@@ -33,6 +33,8 @@ function animateScript(name) {
         a.style.display = "none";
     }
     else { 
+        let number = grzyby.indexOf(a);
+
         alert(indexOf(a));
                       
         if ( document.URL.includes("game.html") ) 
