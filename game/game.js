@@ -41,16 +41,16 @@ function animateScript(name) {
                       
         if ( document.URL.includes("game.html") ) 
      {
-        location.href (texts[number]);
+        location.href = texts[number];
      }
      else if (document.URL.includes('spiel.html'))
      {
-        location.href (gertexts[number]);
+        location.href = gertexts[number];
 
      }
      else if (document.URL.includes('jeu.html'))
      {
-        location.href (frtexts[number]);
+        location.href = frtexts[number];
 
      }
      else
