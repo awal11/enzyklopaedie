@@ -1,7 +1,7 @@
 var grzyby = ['stahu', 'muchom', 'imie', 'rumjan', 'strzelczyk'];
 var strony = ['biologia','matematyka', 'miesnie', 'organy', 'chemia'];
-var texts = ['mushrooms/boletus.html', 'mushrooms/flyagaric.html','mushrooms/cantharellus.html','mushrooms/parasol.html','mushrooms/magic.html']
-var gertexts = ['../../game/pilze/steinpilz.html', '../../game/pilze/fliegenpilz.html', '../../game/pilze/pfifferlinge.html', '../../game/pilze/riesenschirmling.html', '../../game/pilze/magic.html']
+var texts = ['boletus.html', 'flyagaric.html','cantharellus.html','parasol.html','magic.html']
+var gertexts = ['../deutsch/spiel/steinpilz.html', '../deutsch/spiel/fliegenpilz.html', '../deutsch/spiel/pfifferlinge.html', '../deutsch/spiel/riesenschirmling.html', '../deutsch/spiel/magic.html']
 var frtexts = ['../../game/champignons/boletus.html', '../../game/champignons/amanite.html', '../../game/champignons/cantharellus.html', '../../game/champignons/lepiote.html', '../../game/champignons/magic.html']
 
 
